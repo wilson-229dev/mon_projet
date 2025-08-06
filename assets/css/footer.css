@@ -1,0 +1,76 @@
+.footer-container li{
+    list-style: none;
+    text-align: left;
+}
+.footer-section li:hover{
+    font-size: 1.05rem;
+}
+
+.footer-section a{
+    display: block;
+    padding:5px 0;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.footer-section h5{
+    font-weight: bold;
+    font-size: 1.07rem;
+    color: white;
+}
+
+footer{
+
+    background-color: rgb(26, 25, 25);
+}
+
+footer span { 
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+footer img[alt="appsotre"], img[alt='playstore']{
+    width: 150px;
+    height: 50px;
+}
+
+.social-logo ul{
+    height: 60% ;
+}
+.social-logo ul li i{
+    background-color : #343a40;
+    font-size : 1.5rem;
+    padding:10px;
+    border-radius:50px;
+}
+
+.copy h5{
+    color:white;
+    text-align :center;
+}
+.copy{
+    background-color:#1f1f1f;
+    height : 50px;
+    font-size : 1.02rem;
+}
+
+@media screen and (max-width : 599px){
+    .footer-links{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .footer-section{
+        width:90px;
+    }
+    .icons-footer{
+        flex-direction : column;
+    }
+    .apk-store{
+        flex-direction:column;
+        align-items :center;
+    }
+}

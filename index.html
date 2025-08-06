@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>(3) OuiTube</title>
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="assets/images/icones/youtube.png" type="image/x-icon">
+        <link rel="stylesheet" href="../fontawesome-free-6.7.2-web/css/all.css">
+        <script src="assets/js/script.js"></script>
+    </head>
+    <body>
+        <header class='sticky'>
+            <div class="header-top flex box">
+
+                <!-----------------Menu de gauche----------->
+                <div class="header-top-left flex flex-center-v flex-1">
+                    <div class="header-icone">
+                        <i class="fa fa-bars" aria-hidden="true" id="collapse"></i>
+                    </div>
+                    <a href="#">
+                        <div class="logo">
+                            <img src="assets/images/icones/youtube.png" alt="logo-Youtube">
+                        </div>
+                    </a>
+                    <a href><span>OuiTube</span></a>
+
+                </div>
+
+                <!------------Menu de centre------------>
+                <div
+                    class="header-top-center flex flex-3 flex-center-v flex-center-h">
+                    <input type="search" placeholder="Rechercher">
+                    <i class="fa fa-search " aria-hidden="true"></i>
+                </div>
+
+                <!-----------Menu de droite--------->
+                <div class="header-top-right flex flex-1 flex-center-v">
+                    <a href="#" class="flex-1 flex flex-center-h"><i
+                            class='fa fa-bell' aria-hidden='true'></i></a>
+                    <a href="#" class="flex-1 flex flex-center-h"><i
+                            class="fa fa-arrow-circle-up "
+                            aria-hidden='true'></i></a>
+                    <a href="#" class="flex-1 flex flex-center-h"><i
+                            class="fa fa-user-circle "
+                            aria-hidden='true'></i></a>
+                </div>
+            </div>
+
+            <nav class="header-left box fixed" id="header-left">
+                <ul>
+                    <li><a href="#" class="lien">Accueil</a></li>
+                    <li><a href="#" class="lien">Bibliothèque</a></li>
+                    <li><a href="#" class="lien">Compte</a></li>
+                    <li><a href="#" class="lien">Vidéos</a></li>
+                    <li><a href="#" class="lien">Mettre en ligne</a></li>
+                    <li><a href="#" class="lien">Se connecter</a></li>
+                    <li><a href="#" class="lien">S'inscrire</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container-home-xl">
+            <div class="library-items flex gap-10 wrap flex-center-h">
+                <div class="library-item flex flex-column">
+                    <div class="library-video-poster relative">
+                        <img src="assets/images/poster/5.jpg" alt="video-poster">
+                        <img src="assets/images/icones/youtube.png" alt="video-logo-youtube" class='absolute'>
+                    </div>
+                    <div class="library-meta-data flex flex-center-v gap-5">
+                        <div class="profil-picture">
+                            <img src="assets/images/profile/photo_2022-08-11_19-39-02.jpg" alt="compte-picture">
+                        </div>
+                        <div class="video-meta">
+                            <div class="video-title">Faites la déco de chez vous comme un chef en un temps record</div>
+                            <div class="profil-name">Déco-Maison</div>
+                            <div class="video-meta-data flex">
+                                <div class="video-meta-views">304 vues &nbsp;</div>
+                                <div class="video-meta-time"> &nbsp; il y a 30min</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-item flex flex-column">
+                    <div class="library-video-poster relative">
+                        <img src="assets/images/poster/1.jpg"
+                            alt="video-poster">
+                        <img src="assets/images/icones/youtube.png"
+                            alt="video-logo-youtube" class='absolute'>
+                    </div>
+                    <div class="library-meta-data flex flex-center-v gap-5">
+                        <div class="profil-picture">
+                            <img
+                                src="assets/images/profile/photo_2022-04-13_17-28-11.jpg"
+                                alt="compte-picture">
+                        </div>
+                        <div class="video-meta">
+                            <div class="video-title">Lionel Messi annonce son
+                                possible retour au FC Barcelone</div>
+                            <div class="profil-name">Masian</div>
+                            <div class="video-meta-data flex">
+                                <div class="video-meta-views">30.4k vues
+                                    &nbsp;</div>
+                                <div class="video-meta-time"> &nbsp; il y a
+                                    14h</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-item flex flex-column">
+                    <div class="library-video-poster relative">
+                        <img src="assets/images/poster/10.jpg"
+                            alt="video-poster">
+                        <img src="assets/images/icones/youtube.png"
+                            alt="video-logo-youtube" class='absolute'>
+                    </div>
+                    <div class="library-meta-data flex flex-center-v gap-5">
+                        <div class="profil-picture">
+                            <img src="assets/images/profile/loko.jpg"
+                                alt="compte-picture">
+                        </div>
+                        <div class="video-meta">
+                            <div class="video-title">Ce que vous devez savoir
+                                avant de vous lancer en développement web</div>
+                            <div class="profil-name">AfricaTech</div>
+                            <div class="video-meta-data flex">
+                                <div class="video-meta-views">34k vues
+                                    &nbsp;</div>
+                                <div class="video-meta-time"> &nbsp; il y a 2
+                                    ans</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-item flex flex-column">
+                    <div class="library-video-poster relative">
+                        <img src="assets/images/poster/12.jpg"
+                            alt="video-poster">
+                        <img src="assets/images/icones/youtube.png"
+                            alt="video-logo-youtube" class='absolute'>
+                    </div>
+                    <div class="library-meta-data flex flex-center-v gap-5">
+                        <div class="profil-picture">
+                            <img src="assets/images/profile/loko.jpg"
+                                alt="compte-picture">
+                        </div>
+                        <div class="video-meta">
+                            <div class="video-title">Formation complète en
+                                développement web</div>
+                            <div class="profil-name">AfricaTech</div>
+                            <div class="video-meta-data flex">
+                                <div class="video-meta-views">30.4k vues
+                                    &nbsp;</div>
+                                <div class="video-meta-time"> &nbsp; il y a
+                                    14h</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-item flex flex-column">
+                    <div class="library-video-poster relative">
+                        <img src="assets/images/poster/16.jpg"
+                            alt="video-poster">
+                        <img src="assets/images/icones/youtube.png"
+                            alt="video-logo-youtube" class='absolute'>
+                    </div>
+                    <div class="library-meta-data flex flex-center-v gap-5">
+                        <div class="profil-picture">
+                            <img src="assets/images/profile/td.jpg"
+                                alt="compte-picture">
+                        </div>
+                        <div class="video-meta">
+                            <div class="video-title">Ce Barça là est-il
+                                remplaçable ? </div>
+                            <div class="profil-name">Loguito</div>
+                            <div class="video-meta-data flex">
+                                <div class="video-meta-views">30.4k vues
+                                    &nbsp;</div>
+                                <div class="video-meta-time"> &nbsp; il y a
+                                    14h</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-item flex flex-column">
+                    <div class="library-video-poster relative">
+                        <img src="assets/images/poster/4.jpg"
+                            alt="video-poster">
+                        <img src="assets/images/icones/youtube.png"
+                            alt="video-logo-youtube" class='absolute'>
+                    </div>
+                    <div class="library-meta-data flex flex-center-v gap-5">
+                        <div class="profil-picture">
+                            <img src="assets/images/profile/Laliga.jpg"
+                                alt="compte-picture">
+                        </div>
+                        <div class="video-meta">
+                            <div class="video-title">Flick fête ses 60 ans avec
+                                l'équipe du Barça</div>
+                            <div class="profil-name">LaLiga</div>
+                            <div class="video-meta-data flex">
+                                <div class="video-meta-views">30.4k vues
+                                    &nbsp;</div>
+                                <div class="video-meta-time"> &nbsp; il y a
+                                    23h</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-item flex flex-column">
+                    <div class="library-video-poster relative">
+                        <img src="assets/images/poster/2.jpg"
+                            alt="video-poster">
+                        <img src="assets/images/icones/youtube.png"
+                            alt="video-logo-youtube" class='absolute'>
+                    </div>
+                    <div class="library-meta-data flex flex-center-v gap-5">
+                        <div class="profil-picture">
+                            <img
+                                src="assets/images/profile/photo_2022-04-13_17-28-11.jpg"
+                                alt="compte-picture">
+                        </div>
+                        <div class="video-meta">
+                            <div class="video-title">Lionel Messi annonce son
+                                possible retour au FC Barcelone</div>
+                            <div class="profil-name">Masian</div>
+                            <div class="video-meta-data flex">
+                                <div class="video-meta-views">30.4k vues
+                                    &nbsp;</div>
+                                <div class="video-meta-time"> &nbsp; il y a
+                                    14h</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-item flex flex-column">
+                    <div class="library-video-poster relative">
+                        <img src="assets/images/poster/6.jpg"
+                            alt="video-poster">
+                        <img src="assets/images/icones/youtube.png"
+                            alt="video-logo-youtube" class='absolute'>
+                    </div>
+                    <div class="library-meta-data flex flex-center-v gap-5">
+                        <div class="profil-picture">
+                            <img src="assets/images/profile/td.jpg"
+                                alt="compte-picture">
+                        </div>
+                        <div class="video-meta">
+                            <div class="video-title">Victor Roque quitte le
+                                Bétis Séville après un départ manqué avec le F
+                                Barcelone</div>
+                            <div class="profil-name">Loguito</div>
+                            <div class="video-meta-data flex">
+                                <div class="video-meta-views">30.4k vues
+                                    &nbsp;</div>
+                                <div class="video-meta-time"> &nbsp; il y a
+                                    14h</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-item flex flex-column">
+                    <div class="library-video-poster relative">
+                        <img src="assets/images/poster/8.jpg"
+                            alt="video-poster">
+                        <img src="assets/images/icones/youtube.png"
+                            alt="video-logo-youtube" class='absolute'>
+                    </div>
+                    <div class="library-meta-data flex flex-center-v gap-5">
+                        <div class="profil-picture">
+                            <img src="assets/images/profile/inco.jpg"
+                                alt="compte-picture">
+                        </div>
+                        <div class="video-meta">
+                            <div class="video-title">HTML 5 et CSS3 pour
+                                débutant</div>
+                            <div class="profil-name">Topdev</div>
+                            <div class="video-meta-data flex">
+                                <div class="video-meta-views">30 vues
+                                    &nbsp;</div>
+                                <div class="video-meta-time"> &nbsp; il y a 12
+                                    jours</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination flex flex-center-h gap-5">
+            <a href="#"><</a>
+            <a href="#" class="current-page">1</a>
+            <a href="#">2</a>
+            <a href="#">></a>
+        </div>
+        <footer>
+            <div class='footer-header flex flex-center'>
+                <a href="#">
+                    <div class="logo">
+                        <img src="assets/images/icones/youtube.png"
+                            alt="logo-Youtube">
+                    </div>
+                </a>
+                <span class="flex">OuiTube</span>
+            </div>
+
+            <div class="footer-container footer-container-m">
+                <div class="footer-links flex flex-center gap-20 wrap">
+                    <div class="footer-section flex-1">
+                        <h5>Products</h5>
+                        <ul>
+                            <li><a href="#">Video Player</a></li>
+                            <li><a href="#">Create</a></li>
+                            <li><a href="#">Live Streaming</a></li>
+                            <li><a href="#">Screen Recorder</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                            <li><a href="#">Monetization</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section flex-1">
+                        <h5>Resources</h5>
+                        <ul>
+                            <li><a href="#">Helper Centre</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Video School</a></li>
+                            <li><a href="#">OTT Resources</a></li>
+                            <li><a href="#">Developer</a></li>
+                            <li><a href="#">Student</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section flex-1">
+                        <h5>Affiliate</h5>
+                        <ul>
+                            <li><a href="#">Become a Partner</a></li>
+                            <li><a href="#">Guidelines</a></li>
+                            <li><a href="#">Live Streaming</a></li>
+                            <li><a href="#">Hosting Management</a></li>
+                            <li><a href="#">Monetization</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section flex-1">
+                        <h5>Quick</h5>
+                        <ul>
+                            <li><a href="#">Live Streaming</a></li>
+                            <li><a href="#">Video Player</a></li>
+                            <li><a href="#">Screen Recorder</a></li>
+                            <li><a href="#">Monetization</a></li>
+                            <li><a href="#">Create</a></li>
+                            <li><a href="#">Hosting Management</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section flex-1">
+                        <h5>Contact</h5>
+                        <ul>
+                            <li><a href="#">Become a Partner</a></li>
+                            <li><a href="#">Guidelines</a></li>
+                            <li><a href="#">Live Streaming</a></li>
+                            <li><a href="#">Hosting Management</a></li>
+                            <li><a href="#">Monetization</a></li>
+                            <li><a href="#">Screen Recorder</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="icons-footer flex flex-center-v">
+                    <div class="social-logo flex-2">
+                        <ul class="flex gap-10">
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                        </ul>                          
+                    </div>
+                    <div class="apk-store flex flex-1 apk-store-m">
+                        <a href=""><img src="assets/images/img footer/google.png" alt="playstore"></a>
+                        <a href=""><img src="assets/images/img footer/appsotre.png" alt="appsotre"></a>  
+                    </div>
+                </div>
+            </div>
+
+            <div class='copy flex flex-center ' >
+                <h5>Copyright &copy 2025 OuiTube All Right Reserved.</h5>
+            </div>
+        </footer>
+
+    </body>
+</html>
